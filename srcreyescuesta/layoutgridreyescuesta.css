@@ -1,0 +1,37 @@
+.topnav {
+  display: grid;
+  grid-template-areas:
+    "nav1"
+    "nav2"
+    "nav3";
+}
+
+.content {
+  display: grid;
+  grid-template-areas:
+    "elemento1"
+    "elemento2"
+    "elemento3";
+}
+
+.texto {
+  grid-area: elemento1;
+}
+
+.formulario {
+  grid-area: elemento2;
+}
+.imagen {
+  grid-area: elemento3;
+}
+/*DISEÑO PARA ESCRITORIO*/
+@media (min-width: 600px) {
+  .topnav {
+    grid-template-areas: "nav1 nav2 nav3";
+  }
+  .content {
+    grid-template-areas:
+      "elemento1 elemento3 elemento3"
+      "elemento2 elemento2 elemento2";
+  }
+}
