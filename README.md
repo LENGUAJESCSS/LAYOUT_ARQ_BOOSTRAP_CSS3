@@ -17,11 +17,11 @@
 
 ## TENÉIS UN EJEMPLO RESUELTO DE TODAS LAS ACTIVIDADES EN LA CARPETA SRCREYES PARA QUE PODÁIS VER EL RESULTADO DE CÓMO HACERLO.
 
-# BOOSTRAP**********\_\_**********
+# ACTIVIDAD 1: BOOSTRAP**********\_\_**********
 
 ## 1. MODIFICA TU ARCHIVO index Y APLICA BOOSTRAP AL FORMULARIO (puedes seguir el ejemplo de la carpeta srcreyes)
 
-# LAYOUT FLEXBOX **********\_**********
+# ACTIVIDAD 2: LAYOUT FLEXBOX **********\_**********
 
 ## 1. EN TU CARPETA src, crea un nuevo archivo llamado layoutflextunombre.css, i.e layoutflexreyescuesta.css
 
@@ -31,7 +31,7 @@
 
 ## 4.Incluye en este nuevo layoutflex para versión escritorio un diseño de menú horizontal y 3 columnas en la parte de contenido usando flexbox.
 
-# LAYOUT GRID ************\_\_************
+# ACTIVIDAD 3: LAYOUT GRID ************\_\_************
 
 ## 1. EN TU CARPETA src, crea un nuevo archivo llamado layoutgridtunombre.css, i.e layoutgridreyescuesta.css
 
