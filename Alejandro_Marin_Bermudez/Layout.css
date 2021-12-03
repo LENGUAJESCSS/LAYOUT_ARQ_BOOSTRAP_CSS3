@@ -1,0 +1,42 @@
+.topnav
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.texto
+{
+    flex: 100%;
+}
+.imagen
+{
+    flex: 100%;
+}
+.formulario
+{
+    flex: 100%;
+}
+@media (max-width: 600px)
+{
+    .topnav 
+    {
+        flex-direction: row;
+    }
+    .texto
+    {
+        30%;
+    }
+    .fomrilario
+    {
+        40%;
+    }
+    .imagen
+    {
+        30%;
+    }
+}
