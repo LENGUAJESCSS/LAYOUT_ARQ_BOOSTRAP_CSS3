@@ -1,0 +1,27 @@
+.topnav{
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.texto{
+  flex: 100%;
+
+}
+
+.images{
+  flex: 100%;
+
+}
+
+@media (min-width: 800px) {
+  .topnav{
+    flex-direction: row;
+  }
+  .texto{
+    flex: 30%; 
+  }
+}
