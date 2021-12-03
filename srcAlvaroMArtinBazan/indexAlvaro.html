@@ -4,8 +4,12 @@
     <title>CSS Template</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- INCLUIMOS BOOTSTRAP -->
+    <!-- PLANTILLA BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- PLANTILLA BOOTSTRAP JAVASCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- HOJA DE ESTILOS -->
     <link rel="stylesheet" href="stylesAlvaro.css" />
   </head>
   <body>
@@ -14,47 +18,48 @@
       <a href="#">Link2</a>
       <a href="#">Link3</a>
     </div>
-
     <div class="content">
-    <div class="texto">
+      <div class="texto"> <!-- Dividimos en Div-->
       <h1>Título de prueba</h1>
       <h2>CSS Template</h2>
       <a href="#">enlace de prueba</a>
       <p>A topnav, content and a footer.</p>
     </div>
-    </div>
-    <div class="imagen">
+    <div class="imagen"> <!-- Dividimos en Div-->
       <img src="../images/imagen1.png" />
     </div>
-
       <div class="formulario">
-        <div class="form">
         <form action="/action_page.php" class="was-validated">
-          <label class="form-label" for="uname">Username:</label>
+        <div class="mb-3 mt-3">
+          <label for="uname" class="form-label">Username:</label>
           <input
             type="text"
             id="uname"
             placeholder="Enter username"
             name="uname"
             required
-
+            class="form-control"
           />
-          </div>
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">Please fill out this field.</div>
-          <label class="form-label" for="pwd">Password:</label>
-          <input class="form-control"
+          </div>
+          <div class="mb-3 mt-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input
             type="password"
             id="pwd"
             placeholder="Enter password"
             name="pswd"
             required
+            class="form-control"
           />
-          <button class="btn btn-primary" type="submit">Submit</button>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
         </form>
       </div>
     </div>
-
     <div class="footer">
       <p>Footer</p>
     </div>

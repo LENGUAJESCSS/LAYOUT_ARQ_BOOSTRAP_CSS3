@@ -29,5 +29,7 @@
     }
     .content{
         grid-template-areas:
-        "elemento1,elemento3"
+        "elemento1 elemento3"
         "elemento2 elemento2";
+}
+}
