@@ -1,0 +1,22 @@
+/* Contenedor Menu Navegación. Fondo negro, margen interior (padding) 2% y overflow: hidden (para que no sobresalgan los enlaces) */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  padding-left: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* Estilo personalizado para los enlaces del menú */
+.topnav a {
+  color: #f2f2f2;
+  background-color: #333;
+  text-decoration: none;
+  padding: 3%;
+}
+
+/* Cambia el color de fondo y del texto de los enlaces */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}

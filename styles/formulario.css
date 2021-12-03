@@ -1,0 +1,17 @@
+.formulario {
+  background-color: grey;
+  opacity: 0.5;
+  padding: 4%;
+  margin: 2%;
+}
+.formulario input,
+label,
+button {
+  padding: 1%;
+  margin: 2%;
+}
+
+.formulario input,
+label {
+  width: 90%;
+}
