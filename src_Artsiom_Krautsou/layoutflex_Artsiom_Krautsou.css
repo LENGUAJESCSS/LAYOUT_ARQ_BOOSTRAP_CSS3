@@ -1,0 +1,32 @@
+.topnav { /*Esto define para movil*/
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap; /*Es para que el contenido se ajuste*/
+}
+.texto{
+    flex: 100%; /*Para movil asi, poruqe queremos qe sea asi*/
+
+}
+
+.imagen{
+    flex:100%;
+
+}
+.formulario{
+    flex: 100%;
+}
+
+
+      /*Con esto definimos para pantalla de pc*/
+      @media (min-width: 600px){
+    .topnav{
+        flex-direction: row;
+
+    }
+}
+
+
