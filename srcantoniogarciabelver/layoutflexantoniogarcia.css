@@ -1,0 +1,29 @@
+.topnav {
+  display: flex;
+  flex-direction: column;
+}
+
+/*DISENO PARA ESCRITORIO*/
+@media (min-width: 600px) {
+  .topnav {
+    flex-direction: row;
+  }
+}
+
+.texto {
+  flex:30%;
+}
+
+.imagen {
+  flex: 30%;
+}
+
+.formulario {
+  flex:40%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+
+}
