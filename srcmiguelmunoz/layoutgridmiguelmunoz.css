@@ -1,0 +1,40 @@
+.topnav {
+    display: grid;
+    grid-template-areas: "nav4" "nav5" "nav6";
+}
+
+.content {
+    display: grid;
+    grid-template-areas: "elemento1" "elemento2" "elemento3";
+}
+
+.texto {
+    grid-area: elemento1;
+}
+
+.formulario {
+    grid-area: elemento2;
+}
+
+.imagen {
+    grid-area: elemento3;
+}
+
+@media (min-width: 600px) {
+    .topnav {
+        grid-template-areas: "nav4" "nav5" "nav6";
+    }
+    .content {
+        display: grid;
+        grid-template-areas: "elemento1 elemento2" "elemento3 elemento3";
+    }
+    .texto {
+        grid-area: elemento1;
+    }
+    .formulario {
+        grid-area: elemento2;
+    }
+    .imagen {
+        grid-area: elemento3;
+    }
+}
