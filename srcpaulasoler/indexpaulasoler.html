@@ -23,21 +23,20 @@
     </div>
 
     <div class="content">
-      <div class"texto">
+      <div class="texto">
       <h1>Título de prueba</h1>
       <h2>CSS Template</h2>
       <a href="#">enlace de prueba</a>
       <p>A topnav, content and a footer.</p>
         </div>
-        <div class:"imagen">
+        <div class="imagen">
       <img src="../images/imagen1.png" />
         </div>
-      <div class="formulario"class="was-validated" class="form-label">
+      <div class="formulario">
+        <form action="/action_page.php" class="was-validated">
         <div class="mb-3 mt-3">
-         
-        <form action="/action_page.php">
-          <label for="uname" class="form-label"</label>
-            <label for="pwd" class="form-label">Password:</label>
+          <label for="uname" class="form-label">Username:</label>
+           
           <input
             type="text"
             id="uname"
@@ -46,20 +45,22 @@
             required
             class="form-control"
           />
+          <div class="valid-feedback">Usuario correcto.</div>
+          <div class="invalid-feedback">Usuario incorrecto</div>
+        </div>
           <div class="mb-3 mt-3"></div>
-          <label for="pwd">Password:</label>
 
           <input
-          <div class="valid-feedback">Valid.</div>
-          <div class="invalid-feedback">Please fill out this field.</div>
+          <label for="pwd" class="form-label">Password:</label>
             type="password"
             id="pwd"
             placeholder="Enter password"
             name="pswd"
             required
           />
-        </div>
-        </div>
+        </div class="valid-feedback">Pass correcto.</div> >
+        </div class="invalid-feedback">Pass incorrecto</div> >
+      </div>
           <button type="submit">Submit</button>
         </form>
       </div>
