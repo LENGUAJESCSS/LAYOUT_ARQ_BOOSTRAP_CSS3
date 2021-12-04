@@ -1,29 +1,39 @@
 .topnav {
-  display: flex;
-  flex-direction: column;
+    display: flex; /*Cómo se va a mostrar*/
+    flex-direction: column; /*Dirección*/
+}
+.content{
+    display: flex;
+    flex-wrap: wrap; /*Si tiene menos espacio, se pondrá uno debajo de control*/
+                     /*En caso de que tenga espacio, se pondrá uno al lado de otro*/
+   .texto{
+     flex: 100%;
+   }
+
+   .imagen{
+     flex: 100%;
+   }
+
+   .formulario{
+     flex: 100%;
+   }
 }
 
-/*DISENO PARA ESCRITORIO*/
-@media (min-width: 600px) {
-  .topnav {
-    flex-direction: row;
-  }
-}
+/*Diseño para escritorio*/
+@media (min-width: 600px){
+    .topnav{
+      flex-direction: row;
+    }
 
-.texto {
-  flex:30%;
-}
+    .texto{
+      flex: 30%;
+    }
 
-.imagen {
-  flex: 30%;
-}
+    .imagen{
+      flex: 30%;
+    }
 
-.formulario {
-  flex:40%;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-
+    .formulario{
+      flex: 40%;
+    }
 }
