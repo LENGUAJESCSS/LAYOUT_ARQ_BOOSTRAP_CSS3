@@ -1,0 +1,45 @@
+.topnav{
+    display: grid;
+    grid-template-areas:
+    "nav1"
+    "nav2"
+    "nav3"; /*Si lo ponemos uno debajo de otro, saldra uno debajo de otro, si lo ponemos en una linea,
+    saldran al lado*/
+}
+.content{
+    display: grid; /*crea como una tabla*/
+    grid-template-areas:
+    /*'izquierdasup derechasup'
+    'inferior inferior';    Esto seria como la estructura*/
+    "elemento1"
+    "elemento2"
+    "elemento3";
+
+
+}
+.texto{/*De esta forma vamos indicando el lugar donde ira ubicado*/
+    grid-area: elemento1;
+}
+.formulario{
+    grid-area: elemento2;
+}
+
+.imagen{
+    grid-area: elemento3;
+}
+
+
+/*DISEÑO PARA ESCRITORIO*/
+@media (min-width: 600px) {
+    .topnav {
+        grid-template-areas: "nav1 nav2 nav3";
+
+    }
+    .content{
+        grid-template-areas:
+    "elemento1  elemento3 elemento3"
+    "elemento2 elemento2";
+    }
+}
+
+/*Si queremos que se coloquen una encima de otra, habra que ponerlo en el misma area*/
