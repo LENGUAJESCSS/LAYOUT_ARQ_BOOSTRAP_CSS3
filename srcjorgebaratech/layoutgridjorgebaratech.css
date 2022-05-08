@@ -1,0 +1,36 @@
+topnav{
+    display:grid;
+    grid-template-areas:
+    "nav1"
+    "nav2"
+    "nav3";
+}
+
+
+
+
+.content{
+    display:grid;
+    grid-template-areas:
+    "elemento1"
+    "elemento2"
+    "elemento3";
+}
+.texto {
+    grid-areas: elemeto1;
+}
+.formulario {
+    grid-areas: elemeto2;
+}
+.imagen {
+    grid-area: elemento3;
+}
+@media(min-width:600px){
+    .topnav{
+        grid-template-areas: "nav1 nav2 nav3";
+    }
+    .content{
+        "elemento1 elemento3"
+        "elemento2 elemento2";
+    }
+}
